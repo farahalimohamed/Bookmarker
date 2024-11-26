@@ -77,7 +77,6 @@ function addBookmark() {
             displayBookmark();
         }
     } else {
-        alertDiv.textContent = 'Invalid input! Please check your data.';
         alertDiv.classList.remove('d-none');
     }
 }
